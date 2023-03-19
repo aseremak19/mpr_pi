@@ -95,38 +95,41 @@ int main(int argc, char **argv, char **no_cores)
         printf("This program should be run with exactly 2 processes.\n");
         MPI_Abort(MPI_COMM_WORLD, 1);
     }*/
+
+    time_array = (int *)malloc((iterations_limit + 1) * sizeof(int));
+
     for (i = 0; i < iterations_limit; i++)
     {
 
-        time_array = (int *)malloc((iterations_per_sequence + 1) * sizeof(int));
+        MPI_Barrier(MPI_COMM_WORLD);
+        start_time = MPI_Wtime();
 
         for (j = 0; j < iterations_per_sequence; j++)
         {
-            MPI_Barrier(MPI_COMM_WORLD);
-            start_time = MPI_Wtime();
+
             pi_number(isInCircle());
-            end_time = MPI_Wtime();
-
-            elapsed_time = start_time - end_time;
-            time_array[j] = elapsed_time;
         }
+        end_time = MPI_Wtime();
 
-        total_time = 0.0;
-        for (j = 0; j < iterations_per_sequence; j++)
-        {
-            total_time = total_time + time_array[j];
-        }
-
-        total_time = total_time / (double)iterations_per_sequence;
-
-        if (rank == 0)
-        {
-
-            fprintf(file, "%.30f\n", total_time);
-        }
-
-        free(time_array);
+        elapsed_time = start_time - end_time;
+        time_array[j] = elapsed_time;
     }
+
+    total_time = 0.0;
+    for (j = 0; j < iterations_per_sequence; j++)
+    {
+        total_time = total_time + time_array[j];
+    }
+
+    total_time = total_time / (double)iterations_per_sequence;
+
+    if (rank == 0)
+    {
+
+        fprintf(file, "%.30f\n", total_time);
+    }
+
+    free(time_array);
 
     printf("Rank: %d; Hostanme: %s\n", rank, hostname);
     MPI_Finalize();
