@@ -60,11 +60,11 @@ int main(int argc, char **argv)
     int len;
     MPI_Get_processor_name(hostname, &len);
 
-    if (size != 2)
+    /*if (size != 2)
     {
         printf("This program should be run with exactly 2 processes.\n");
         MPI_Abort(MPI_COMM_WORLD, 1);
-    }
+    }*/
 
     pi_number(isInCircle());
 
