@@ -48,10 +48,12 @@ float pi_number(int inCircle)
 
 int main(int argc, char **argv, char **no_cores)
 {
-    int rank, size, i;
+    int rank, size, i, j;
     double start_time, end_time, total_time, avg_time;
-
+    int *time_array;
     int iterations_limit = 10000;
+
+    int iterations_per_sequence = 100;
 
     // Initialize MPI
     MPI_Init(&argc, &argv);
@@ -66,7 +68,7 @@ int main(int argc, char **argv, char **no_cores)
 
     char string_file[16];
 
-    string_file = {"_cores_1000.csv"};
+    // string_file = {"_cores_1000.csv"};
 
     strcat(&no_cores, string_file);
 
@@ -92,16 +94,23 @@ int main(int argc, char **argv, char **no_cores)
         printf("This program should be run with exactly 2 processes.\n");
         MPI_Abort(MPI_COMM_WORLD, 1);
     }*/
-
     for (i = 0; i < iterations_limit; i++)
     {
 
-        MPI_Barrier(MPI_COMM_WORLD);
-        start_time = MPI_Wtime();
+        time_array = (int *)malloc((iterations_per_sequence + 1) * sizeof(int));
 
-        pi_number(isInCircle());
+        for (j = 0; j < iterations_per_sequence; j++)
+        {
+            MPI_Barrier(MPI_COMM_WORLD);
+            start_time = MPI_Wtime();
+            pi_number(isInCircle());
+            end_time = MPI_Wtime();
 
-        end_time = MPI_Wtime();
+            total_time = start_time - end_time;
+            time_array[j] = total_time;
+        }
+
+        free(time_array)
     }
 
     printf("Rank: %d; Hostanme: %s\n", rank, hostname);
