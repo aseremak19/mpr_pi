@@ -122,7 +122,7 @@ int main(int argc, char **argv, char **no_cores)
         if (rank == 0)
         {
 
-            fprintf(file, "%.15f\n", total_time);
+            fprintf(file, "%.30f\n", total_time);
         }
 
         free(time_array);
