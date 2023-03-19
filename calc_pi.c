@@ -66,7 +66,7 @@ int main(int argc, char **argv, char **no_cores)
 
     char string_file[16];
 
-    string_file = {"_cores_1000.csv"}
+    string_file = {"_cores_1000.csv"};
 
     strcat(no_cores, string_file);
 
