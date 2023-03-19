@@ -18,8 +18,9 @@ int isInCircle()
     double x;
     double y;
     int distance;
+    int i;
 
-    for (int i = 0; i < N; i++)
+    for (i = 0; i < N; i++)
     {
         x = rand_0_1();
         y = rand_0_1();
@@ -46,17 +47,7 @@ float pi_number(int inCircle)
 
 int main(int argc, char **argv)
 {
-    int rank, size, i, j;
-    int send_size, recv_size;
-    int *send_0_array;
-    int *recv_1_array;
-    int *recv_0_array;
-    double start_time, end_time, total_time, avg_time;
-
-    int iteration_limit, iteration_per_;
-
-    iteration_limit = 1000 * 20;
-    iteration_per_ = 100;
+    int rank, size;
 
     // Initialize MPI
     MPI_Init(&argc, &argv);
