@@ -42,7 +42,7 @@ float pi_number(int inCircle)
     float pi;
     pi = 4.0 * (float)inCircle / (float)1000;
 
-    printf("Pi %f\n", pi);
+    // printf("Pi %f\n", pi);
 
     return pi;
 }
@@ -117,9 +117,9 @@ int main(int argc, char **argv, char **no_cores)
             total_time = total_time + time_array[j];
         }
 
-        total_time = total_time / (double)iterations_per_sequence
+        total_time = total_time / (double)iterations_per_sequence;
 
-                     if (rank == 0)
+        if (rank == 0)
         {
 
             fprintf(file, "%.15f\n", total_time);
