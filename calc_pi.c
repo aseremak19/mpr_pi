@@ -70,9 +70,9 @@ int main(int argc, char **argv, char **no_cores)
 
     // string_file = {"_cores_1000.csv"};
 
-    strcat(&no_cores, string_file);
+    // strcat(&no_cores, string_file);
 
-    printf("No of cores: %s", &no_cores);
+    // printf("No of cores: %s", &no_cores);
 
     // creating CSV file
     FILE *file = NULL;
@@ -110,7 +110,7 @@ int main(int argc, char **argv, char **no_cores)
             time_array[j] = total_time;
         }
 
-        free(time_array)
+        free(time_array);
     }
 
     printf("Rank: %d; Hostanme: %s\n", rank, hostname);
