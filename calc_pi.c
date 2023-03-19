@@ -15,6 +15,7 @@ int isInCircle()
     int N = 1000;
     int incircle = 0;
     int count = 0;
+    int sum = 0;
 
     double x;
     double y;
@@ -49,7 +50,7 @@ float pi_number(int inCircle)
 int main(int argc, char **argv, char **no_cores)
 {
     int rank, size, i, j;
-    double start_time, end_time, total_time, avg_time;
+    double start_time, end_time, total_time, elapsed_time;
     int *time_array;
     int iterations_limit = 10000;
 
@@ -106,8 +107,22 @@ int main(int argc, char **argv, char **no_cores)
             pi_number(isInCircle());
             end_time = MPI_Wtime();
 
-            total_time = start_time - end_time;
-            time_array[j] = total_time;
+            elapsed_time = start_time - end_time;
+            time_array[j] = elapsed_time;
+        }
+
+        total_time = 0.0;
+        for (j = 0; j < iterations_per_sequence; j++)
+        {
+            total_time = total_time + time_array[j];
+        }
+
+        total_time = total_time / (double)iterations_per_sequence
+
+                     if (rank == 0)
+        {
+
+            fprintf(file, "%.15f\n", total_time);
         }
 
         free(time_array);
