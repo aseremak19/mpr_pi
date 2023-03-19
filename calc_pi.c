@@ -68,13 +68,15 @@ int main(int argc, char **argv, char **no_cores)
 
     string_file = {"_cores_1000.csv"};
 
-    strcat(no_cores, string_file);
+    strcat(&no_cores, string_file);
+
+    printf("No of cores: %s", &no_cores);
 
     // creating CSV file
     FILE *file = NULL;
     if (rank == 0)
     {
-        file = fopen(no_cores, "w");
+        file = fopen("2_cores_1000.csv", "w");
         if (file == NULL)
         {
             printf("Error opening output file.\n");
