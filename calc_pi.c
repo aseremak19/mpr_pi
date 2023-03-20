@@ -110,7 +110,7 @@ int main(int argc, char **argv)
         MPI_Abort(MPI_COMM_WORLD, 1);
     }*/
 
-    time_array = (int *)malloc((iterations_limit + 1) * sizeof(int));
+    time_array = (double *)malloc((iterations_limit + 1) * sizeof(double));
 
     for (i = 0; i < iterations_limit / size; i++)
     {
