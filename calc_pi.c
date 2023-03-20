@@ -123,7 +123,7 @@ int main(int argc, char **argv)
         MPI_Barrier(MPI_COMM_WORLD);
         end_time = MPI_Wtime();
 
-        elapsed_time = start_time - end_time;
+        elapsed_time = end_time - start_time;
         time_array[i] = elapsed_time;
         total_time = total_time + elapsed_time;
     }
