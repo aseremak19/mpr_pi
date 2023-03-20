@@ -155,7 +155,7 @@ int main(int argc, char **argv)
     {
         for (j = 1; j <= iterations_limit - i; j++)
         {
-            if (time_array[j] < = time_array[j + 1])
+            if (time_array[j] <= time_array[j + 1])
             {
 
                 t = time_array[j];
@@ -167,7 +167,7 @@ int main(int argc, char **argv)
         }
     }
 
-    if (iterations_limit % 2 = = 0)
+    if (iterations_limit % 2 == 0)
         median = (time_array[iterations_limit / 2] + time_array[iterations_limit / 2 + 1]) / 2.0;
     else
         median = time_array[iterations_limit / 2 + 1];
