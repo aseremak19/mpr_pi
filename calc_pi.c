@@ -69,6 +69,8 @@ int main(int argc, char **argv)
 
     int iterations_per_sequence = 100;
 
+    printf("Cores: %d", argc);
+
     // Initialize MPI
     MPI_Init(&argc, &argv);
 
@@ -139,7 +141,7 @@ int main(int argc, char **argv)
     if (rank == 0)
     {
 
-        fprintf(file, "%d, %.30f\n", &argc, total_time);
+        fprintf(file, "%d, %.30f\n", argc, total_time);
         printf("Total time: %f\n", total_time);
     }
 
