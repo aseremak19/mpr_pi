@@ -87,7 +87,7 @@ int main(int argc, char **argv)
     // strong
     int iterations_limit = iterations_limit_actual * size;
 
-    int file_exist = exists("cores_1000.csv");
+    int file_exist = exists("strong.csv");
 
     // creating CSV file
     FILE *file = NULL;
@@ -101,7 +101,7 @@ int main(int argc, char **argv)
         }
         else
         {
-            file = fopen("cores_1000.csv", "a");
+            file = fopen("strong.csv", "a");
         }
         if (file == NULL)
         {
