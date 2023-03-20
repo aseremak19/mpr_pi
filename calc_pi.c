@@ -140,7 +140,7 @@ int main(int argc, char **argv)
     {
 
         fprintf(file, "%.30f\n", total_time);
-        print("Total time: %f\n", total_time);
+        printf("Total time: %f\n", total_time);
     }
 
     free(time_array);
