@@ -60,7 +60,7 @@ float pi_number(int inCircle)
 
 //==================================================
 
-int main(int argc, char **argv, int *cores_num)
+int main(int argc, char **argv)
 {
     int rank, size, i, j;
     double start_time, end_time, total_time, elapsed_time;
@@ -69,7 +69,7 @@ int main(int argc, char **argv, int *cores_num)
 
     int iterations_per_sequence = 100;
 
-    printf("Cores: %d", *cores_num);
+    printf("argv: %f", &argv);
 
     // Initialize MPI
     MPI_Init(&argc, &argv);
