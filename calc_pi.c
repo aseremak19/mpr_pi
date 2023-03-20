@@ -65,7 +65,7 @@ int main(int argc, char **argv)
     int rank, size, i, j;
     double start_time, end_time, total_time, elapsed_time;
     int *time_array;
-    int iterations_limit = 10000;
+    int iterations_limit = 100000;
 
     int iterations_per_sequence = 100;
 
@@ -119,6 +119,7 @@ int main(int argc, char **argv)
 
         pi_number(isInCircle());
 
+        MPI_Barrier(MPI_COMM_WORLD);
         end_time = MPI_Wtime();
 
         elapsed_time = start_time - end_time;
@@ -126,7 +127,7 @@ int main(int argc, char **argv)
     }
 
     total_time = 0.0;
-    for (j = 0; j < iterations_per_sequence; j++)
+    for (j = 0; j < iterations_limit; j++)
     {
         total_time = total_time + time_array[j];
     }
