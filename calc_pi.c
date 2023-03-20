@@ -83,8 +83,9 @@ int main(int argc, char **argv)
 
     // weak
     int iterations_limit = iterations_limit_actual;
+
     // strong
-    int iterations_limit = iterations_limit_actual * size;
+    // int iterations_limit = iterations_limit_actual * size;
 
     int file_exist = exists("cores_1000.csv");
 
