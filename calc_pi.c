@@ -73,9 +73,9 @@ int main(int argc, char **argv, char **cores)
 
     // string_file = "_cores_1000.csv";
 
-    strcat(**cores, string_file);
+    strcat(*cores, string_file);
 
-    printf("File name: %s", **cores);
+    printf("File name: %s", *cores);
 
     MPI_Abort(MPI_COMM_WORLD, 1);
     MPI_Abort(MPI_COMM_WORLD, 2);
