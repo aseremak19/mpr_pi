@@ -106,11 +106,8 @@ int main(int argc, char **argv, char *cores)
         MPI_Barrier(MPI_COMM_WORLD);
         start_time = MPI_Wtime();
 
-        for (j = 0; j < iterations_per_sequence; j++)
-        {
+        pi_number(isInCircle());
 
-            pi_number(isInCircle());
-        }
         end_time = MPI_Wtime();
 
         elapsed_time = start_time - end_time;
@@ -123,7 +120,7 @@ int main(int argc, char **argv, char *cores)
         total_time = total_time + time_array[j];
     }
 
-    total_time = total_time / (double)iterations_per_sequence;
+    // total_time = total_time / (double)iterations_per_sequence;
 
     if (rank == 0)
     {
