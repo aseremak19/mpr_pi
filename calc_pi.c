@@ -69,9 +69,9 @@ int main(int argc, char **argv, char *cores)
     int len;
     MPI_Get_processor_name(hostname, &len);
 
-    char string_file[20];
+    char string_file[20] = "_cores_1000.csv";
 
-    string_file = "_cores_1000.csv";
+    // string_file = "_cores_1000.csv";
 
     strcat(cores, string_file);
 
