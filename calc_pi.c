@@ -116,11 +116,7 @@ int main(int argc, char **argv)
         MPI_Abort(MPI_COMM_WORLD, 1);
     }*/
 
-    if (rank == 0)
-    {
-
-        time_array = (double *)malloc((iterations_limit_actual + 1) * sizeof(double));
-    }
+    time_array = (double *)malloc((iterations_limit + 1) * sizeof(double));
 
     for (i = 0; i < iterations_limit / size; i++)
     {
@@ -141,60 +137,56 @@ int main(int argc, char **argv)
 
             total_time = total_time + elapsed_time;
         }
-        if (rank == 0)
-        {
-            time_array[i] = total_time;
-        }
-
+        time_array[i] = total_time;
         printf("Iteration: %d; total time:%.15f\n", i, total_time);
     }
 
     total_time = 0.0;
-
-    if (rank == 0)
+    for (j = 0; j < iterations_limit; j++)
     {
-        for (j = 0; j < iterations_limit_actual; j++)
-        {
-            total_time = total_time + time_array[j];
-        }
-        printf("total TIme sum: %.15f", total_time);
-
-        /* Sorting begins */
-
-        double t, median;
-        for (i = 0; i < iterations_limit_actual; i++)
-        {
-            for (j = i + 1; j < iterations_limit_actual; j++)
-            {
-                if (time_array[i] > time_array[j])
-                {
-
-                    t = time_array[i];
-                    time_array[i] = time_array[j];
-                    time_array[j] = t;
-                }
-            }
-        }
-
-        if (iterations_limit % 2 == 0)
-            median = (time_array[iterations_limit / 2] + time_array[iterations_limit / 2 + 1]) / 2.0;
-        else
-            median = time_array[iterations_limit / 2 + 1];
+        total_time = total_time + time_array[j];
     }
+    printf("total TIme sum: %.15f", total_time);
+
+    /* Sorting begins */
+
+    double t, median;
+    for (i = 1; i <= iterations_limit - 1; i++)
+    {
+        for (j = 1; j <= iterations_limit - i; j++)
+        {
+            if (time_array[j] <= time_array[j + 1])
+            {
+
+                t = time_array[j];
+                time_array[j] = time_array[j + 1];
+                time_array[j + 1] = t;
+            }
+            else
+                continue;
+        }
+    }
+
+    if (iterations_limit % 2 == 0)
+        median = (time_array[iterations_limit / 2] + time_array[iterations_limit / 2 + 1]) / 2.0;
+    else
+        median = time_array[iterations_limit / 2 + 1];
 
     if (rank == 0)
     {
         printf("\n");
-        for (i = 0; i < iterations_limit_actual; i++)
+        for (i = 0; i < iterations_limit; i++)
         {
             printf("%f ", time_array[i]);
         }
         printf("median: %f\n", median);
     }
 
+    total_time = total_time / (double)iterations_limit_actual;
+
     if (rank == 0)
     {
-        total_time = total_time / (double)iterations_limit_actual;
+
         fprintf(file, "%d, %.30f\n", size, total_time);
         printf("Average time: %f\n", total_time);
     }
