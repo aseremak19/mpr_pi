@@ -95,7 +95,7 @@ int main(int argc, char **argv)
         else
         {
             file = fopen("cores_1000.csv", "a");
-                }
+        }
         if (file == NULL)
         {
             printf("Error opening output file.\n");
@@ -139,7 +139,7 @@ int main(int argc, char **argv)
     if (rank == 0)
     {
 
-        fprintf(file, "%d, %.30f\n", argc, total_time);
+        fprintf(file, "%d, %.30f\n", &argc, total_time);
         printf("Total time: %f\n", total_time);
     }
 
