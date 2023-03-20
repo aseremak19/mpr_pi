@@ -202,5 +202,10 @@ int main(int argc, char **argv)
     printf("Rank: %d; Hostanme: %s\n", rank, hostname);
     MPI_Finalize();
 
+    if (rank == 0)
+    {
+        printf("\nCompleted: %d\n", size);
+    }
+
     return 0;
 }
