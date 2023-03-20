@@ -69,7 +69,7 @@ int main(int argc, char **argv, int *cores_num)
 
     int iterations_per_sequence = 100;
 
-    printf("Cores: %d", &cores_num);
+    printf("Cores: %d", *cores_num);
 
     // Initialize MPI
     MPI_Init(&argc, &argv);
