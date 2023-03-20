@@ -1,7 +1,7 @@
 #!/bin/bash -l
 #SBATCH --nodes 1
 #SBATCH --ntasks 12
-#SBATCH --time=01:20:00
+#SBATCH --time=01:50:00
 #SBATCH --partition=plgrid
 #SBATCH --account=plgmpr23-cpu
 module add .plgrid plgrid/tools/openmpi
@@ -11,7 +11,6 @@ mpicc -o ares_big_a_c ares_big_a.c
 mpicc -o ares_small_g_c ares_small_g.c
 mpicc -o ares_medium_g_c ares_medium_g.c
 mpicc -o ares_big_g_c ares_big_g.c
-
 mpiexec -np 1 ./ares_small_a_c
 mpiexec -np 2 ./ares_small_a_c
 mpiexec -np 3 ./ares_small_a_c
