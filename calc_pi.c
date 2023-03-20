@@ -49,7 +49,7 @@ float pi_number(int inCircle)
 
 //==================================================
 
-int main(int argc, char **argv, char *cores)
+int main(int argc, char **argv, char **cores)
 {
     int rank, size, i, j;
     double start_time, end_time, total_time, elapsed_time;
@@ -75,7 +75,9 @@ int main(int argc, char **argv, char *cores)
 
     strcat(cores, string_file);
 
-    // printf("No of cores: %s", &no_cores);
+    printf("File name: %s", cores);
+
+    MPI_Abort(MPI_COMM_WORLD, 1);
 
     // creating CSV file
     FILE *file = NULL;
