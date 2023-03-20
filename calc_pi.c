@@ -68,8 +68,6 @@ int main(int argc, char **argv)
     int iterations_limit_actual = 10;
     int iterations_repeats = 10000;
 
-    int iterations_limit = iterations_limit_actual * size;
-
     // Initialize MPI
     MPI_Init(&argc, &argv);
 
@@ -82,6 +80,8 @@ int main(int argc, char **argv)
     char hostname[MPI_MAX_PROCESSOR_NAME];
     int len;
     MPI_Get_processor_name(hostname, &len);
+
+    int iterations_limit = iterations_limit_actual * size;
 
     int file_exist = exists("cores_1000.csv");
 
