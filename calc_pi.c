@@ -69,7 +69,7 @@ int main(int argc, char **argv)
 
     int iterations_per_sequence = 100;
 
-    printf("argv: %f", &argv);
+    printf("argv: %s", *argv);
 
     // Initialize MPI
     MPI_Init(&argc, &argv);
