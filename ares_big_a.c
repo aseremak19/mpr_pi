@@ -23,7 +23,7 @@ int exists(const char *fname)
 
 int isInCircle()
 {
-    int N = 180000000;
+    int N = 18000000 * 3;
     // int N = 150;
     int incircle = 0;
     // int count = 0;
@@ -66,10 +66,10 @@ int main(int argc, char **argv)
     int rank, size, i, j, z;
     double start_time, end_time, total_time, elapsed_time;
     double *time_array;
-    int iterations_limit_actual = 20;
+    int iterations_limit_actual = 1;
     // int iterations_repeats = 1000 * 3;
     int iterations_repeats = 1;
-    int experiment_iterations = 1;
+    int experiment_iterations = 20;
 
     // Initialize MPI
     MPI_Init(&argc, &argv);
