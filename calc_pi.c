@@ -68,6 +68,8 @@ int main(int argc, char **argv)
     int iterations_limit = 10;
     int iterations_repeats = 100000;
 
+    iterations_limit = iterations_limit * 2;
+
     // Initialize MPI
     MPI_Init(&argc, &argv);
 
