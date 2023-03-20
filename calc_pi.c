@@ -110,9 +110,11 @@ int main(int argc, char **argv)
         MPI_Abort(MPI_COMM_WORLD, 1);
     }*/
 
+    time_array = (int *)malloc((iterations_limit + 1) * sizeof(int));
+
     for (i = 0; i < iterations_limit / size; i++)
     {
-        time_array = (int *)malloc((iterations_limit + 1) * sizeof(int));
+
         total_time = 0.0;
 
         for (j = 0; j < iterations_repeats; j++)
@@ -130,7 +132,7 @@ int main(int argc, char **argv)
             total_time = total_time + elapsed_time;
         }
         time_array[i] = total_time;
-        printf("Iteration: %d; total time:%f.15", i, total_time);
+        printf("Iteration: %d; total time:%.15f\n", i, total_time);
     }
 
     total_time = 0.0;
@@ -138,6 +140,7 @@ int main(int argc, char **argv)
     {
         total_time = total_time + time_array[j];
     }
+    printf("total TIme sum: %.15f", total_time);
 
     total_time = total_time / (double)iterations_limit;
 
