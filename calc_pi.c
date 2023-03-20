@@ -110,6 +110,7 @@ int main(int argc, char **argv)
     }*/
 
     time_array = (int *)malloc((iterations_limit + 1) * sizeof(int));
+    total_time = 0.0;
 
     for (i = 0; i < iterations_limit; i++)
     {
@@ -124,13 +125,14 @@ int main(int argc, char **argv)
 
         elapsed_time = start_time - end_time;
         time_array[i] = elapsed_time;
+        total_time = total_time + elapsed_time;
     }
 
-    total_time = 0.0;
+    /*total_time = 0.0;
     for (j = 0; j < iterations_limit; j++)
     {
         total_time = total_time + time_array[j];
-    }
+    }*/
 
     // total_time = total_time / (double)iterations_per_sequence;
 
@@ -138,6 +140,7 @@ int main(int argc, char **argv)
     {
 
         fprintf(file, "%.30f\n", total_time);
+        print("Total time: %f\n", total_time);
     }
 
     free(time_array);
