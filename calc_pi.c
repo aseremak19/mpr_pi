@@ -60,7 +60,7 @@ float pi_number(int inCircle)
 
 //==================================================
 
-int main(int argc, char **argv, int cores_num)
+int main(int argc, char **argv, int *cores_num)
 {
     int rank, size, i, j;
     double start_time, end_time, total_time, elapsed_time;
