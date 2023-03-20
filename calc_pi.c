@@ -138,7 +138,7 @@ int main(int argc, char **argv)
             total_time = total_time + elapsed_time;
         }
         time_array[i] = total_time;
-        printf("Iteration: %d; total time:%.15f\n", i, total_time);
+        // printf("Iteration: %d; total time:%.15f\n", i, total_time);
     }
 
     total_time = 0.0;
