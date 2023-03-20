@@ -150,49 +150,51 @@ int main(int argc, char **argv)
     }
 
     total_time = 0.0;
-    for (j = 0; j < iterations_limit_actual; j++)
-    {
-        total_time = total_time + time_array[j];
-    }
-    printf("total TIme sum: %.15f", total_time);
 
-    /* Sorting begins */
-
-    double t, median;
-    for (i = 0; i < iterations_limit_actual; i++)
+    if (rank == 0)
     {
-        for (j = i + 1; j < iterations_limit_actual; j++)
+        for (j = 0; j < iterations_limit_actual; j++)
         {
-            if (time_array[i] > time_array[j])
-            {
+            total_time = total_time + time_array[j];
+        }
+        printf("total TIme sum: %.15f", total_time);
 
-                t = time_array[i];
-                time_array[i] = time_array[j];
-                time_array[j] = t;
+        /* Sorting begins */
+
+        double t, median;
+        for (i = 0; i < iterations_limit_actual; i++)
+        {
+            for (j = i + 1; j < iterations_limit_actual; j++)
+            {
+                if (time_array[i] > time_array[j])
+                {
+
+                    t = time_array[i];
+                    time_array[i] = time_array[j];
+                    time_array[j] = t;
+                }
             }
         }
-    }
 
-    if (iterations_limit % 2 == 0)
-        median = (time_array[iterations_limit / 2] + time_array[iterations_limit / 2 + 1]) / 2.0;
-    else
-        median = time_array[iterations_limit / 2 + 1];
+        if (iterations_limit % 2 == 0)
+            median = (time_array[iterations_limit / 2] + time_array[iterations_limit / 2 + 1]) / 2.0;
+        else
+            median = time_array[iterations_limit / 2 + 1];
+    }
 
     if (rank == 0)
     {
         printf("\n");
-        for (i = 0; i < iterations_limit; i++)
+        for (i = 0; i < iterations_limit_actual; i++)
         {
             printf("%f ", time_array[i]);
         }
         printf("median: %f\n", median);
     }
 
-    total_time = total_time / (double)iterations_limit_actual;
-
     if (rank == 0)
     {
-
+        total_time = total_time / (double)iterations_limit_actual;
         fprintf(file, "%d, %.30f\n", size, total_time);
         printf("Average time: %f\n", total_time);
     }
