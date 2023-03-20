@@ -182,13 +182,13 @@ int main(int argc, char **argv)
         printf("median: %f\n", median);
     }
 
-    total_time = total_time / (double)iterations_limit_actual;
+    // total_time = total_time / (double)iterations_limit_actual;
 
     if (rank == 0)
     {
 
-        fprintf(file, "%d, %.30f\n", size, total_time);
-        printf("Average time: %f\n", total_time);
+        fprintf(file, "%d, %.30f\n", size, median);
+        // printf("Average time: %f\n", total_time);
     }
 
     free(time_array);
