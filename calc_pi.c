@@ -65,7 +65,8 @@ int main(int argc, char **argv)
     int rank, size, i, j;
     double start_time, end_time, total_time, elapsed_time;
     int *time_array;
-    int iterations_limit = 100000;
+    int iterations_limit = 20;
+    int iterations_repeats = 100000;
 
     // Initialize MPI
     MPI_Init(&argc, &argv);
@@ -109,32 +110,35 @@ int main(int argc, char **argv)
         MPI_Abort(MPI_COMM_WORLD, 1);
     }*/
 
-    time_array = (int *)malloc((iterations_limit + 1) * sizeof(int));
-    total_time = 0.0;
-
     for (i = 0; i < iterations_limit / size; i++)
     {
+        time_array = (int *)malloc((iterations_limit + 1) * sizeof(int));
+        total_time = 0.0;
 
-        MPI_Barrier(MPI_COMM_WORLD);
-        start_time = MPI_Wtime();
+        for (j = 0; j < iterations_repeats; j++)
+        {
+            MPI_Barrier(MPI_COMM_WORLD);
+            start_time = MPI_Wtime();
 
-        pi_number(isInCircle());
+            pi_number(isInCircle());
 
-        MPI_Barrier(MPI_COMM_WORLD);
-        end_time = MPI_Wtime();
+            MPI_Barrier(MPI_COMM_WORLD);
+            end_time = MPI_Wtime();
 
-        elapsed_time = end_time - start_time;
-        time_array[i] = elapsed_time;
-        total_time = total_time + elapsed_time;
+            elapsed_time = end_time - start_time;
+
+            total_time = total_time + elapsed_time;
+        }
+        time_array[i] = total_time;
     }
 
-    /*total_time = 0.0;
+    total_time = 0.0;
     for (j = 0; j < iterations_limit; j++)
     {
         total_time = total_time + time_array[j];
-    }*/
+    }
 
-    // total_time = total_time / (double)iterations_per_sequence;
+    total_time = total_time / (double)iterations_limit;
 
     if (rank == 0)
     {
