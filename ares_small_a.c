@@ -67,8 +67,8 @@ int main(int argc, char **argv)
     double start_time, end_time, total_time, elapsed_time;
     double *time_array;
     int iterations_limit_actual = 20;
-    int iterations_repeats = 1000 * 3;
-    int experiment_iterations = 13;
+    int iterations_repeats = 1;
+    int experiment_iterations = 1;
 
     // Initialize MPI
     MPI_Init(&argc, &argv);
