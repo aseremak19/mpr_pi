@@ -88,14 +88,14 @@ int main(int argc, char **argv)
     {
         if (file_exist == 0)
         {
-            file = fopen("cores_1000.csv", "a");
+            file = fopen("cores_1000.csv", "w");
+            // Write the header row to the output file
+            fprintf(file, "Cores, Time\n");
         }
         else
         {
             file = fopen("cores_1000.csv", "a");
-            // Write the header row to the output file
-            fprintf(file, "Array Size,Average Time\n");
-        }
+                }
         if (file == NULL)
         {
             printf("Error opening output file.\n");
@@ -139,11 +139,16 @@ int main(int argc, char **argv)
     if (rank == 0)
     {
 
-        fprintf(file, "%.30f\n", total_time);
+        fprintf(file, "%d, %.30f\n", argc, total_time);
         printf("Total time: %f\n", total_time);
     }
 
     free(time_array);
+
+    if (rank == 0)
+    {
+        fclose(file);
+    }
 
     printf("Rank: %d; Hostanme: %s\n", rank, hostname);
     MPI_Finalize();
