@@ -74,7 +74,7 @@ int main(int argc, char **argv)
     MPI_Comm_size(MPI_COMM_WORLD, &size);
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 
-    printf("Rank: %d; size: %d", rank, size);
+    // printf("Rank: %d; size: %d", rank, size);
 
     char hostname[MPI_MAX_PROCESSOR_NAME];
     int len;
@@ -112,7 +112,7 @@ int main(int argc, char **argv)
     time_array = (int *)malloc((iterations_limit + 1) * sizeof(int));
     total_time = 0.0;
 
-    for (i = 0; i < iterations_limit; i++)
+    for (i = 0; i < iterations_limit / size; i++)
     {
 
         MPI_Barrier(MPI_COMM_WORLD);
@@ -139,7 +139,7 @@ int main(int argc, char **argv)
     if (rank == 0)
     {
 
-        fprintf(file, "%d, %.30f\n", argc, total_time);
+        fprintf(file, "%d, %.30f\n", size, total_time);
         printf("Total time: %f\n", total_time);
     }
 
