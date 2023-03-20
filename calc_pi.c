@@ -71,9 +71,9 @@ int main(int argc, char **argv, char *cores)
 
     char string_file[20];
 
-    string_file = {"_cores_1000.csv"};
+    string_file = "_cores_1000.csv";
 
-    strcat(&cores, string_file);
+    strcat(cores, string_file);
 
     // printf("No of cores: %s", &no_cores);
 
