@@ -151,9 +151,9 @@ int main(int argc, char **argv)
     /* Sorting begins */
 
     double t, median;
-    for (i = 1; i < = iterations_limit - 1; i + +)
+    for (i = 1; i <= iterations_limit - 1; i++)
     {
-        for (j = 1; j < = iterations_limit - i; j + +)
+        for (j = 1; j <= iterations_limit - i; j++)
         {
             if (time_array[j] < = time_array[j + 1])
             {
