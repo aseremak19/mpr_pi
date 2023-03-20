@@ -116,7 +116,11 @@ int main(int argc, char **argv)
         MPI_Abort(MPI_COMM_WORLD, 1);
     }*/
 
-    time_array = (double *)malloc((iterations_limit_actual + 1) * sizeof(double));
+    if (rank == 0)
+    {
+
+        time_array = (double *)malloc((iterations_limit_actual + 1) * sizeof(double));
+    }
 
     for (i = 0; i < iterations_limit / size; i++)
     {
@@ -137,7 +141,11 @@ int main(int argc, char **argv)
 
             total_time = total_time + elapsed_time;
         }
-        time_array[i] = total_time;
+        if (rank == 0)
+        {
+            time_array[i] = total_time;
+        }
+
         printf("Iteration: %d; total time:%.15f\n", i, total_time);
     }
 
@@ -151,9 +159,9 @@ int main(int argc, char **argv)
     /* Sorting begins */
 
     double t, median;
-    for (i = 0; i < iterations_limit; i++)
+    for (i = 0; i < iterations_limit_actual; i++)
     {
-        for (j = i + 1; j < iterations_limit; j++)
+        for (j = i + 1; j < iterations_limit_actual; j++)
         {
             if (time_array[i] > time_array[j])
             {
