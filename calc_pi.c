@@ -171,7 +171,16 @@ int main(int argc, char **argv)
         median = (time_array[iterations_limit / 2] + time_array[iterations_limit / 2 + 1]) / 2.0;
     else
         median = time_array[iterations_limit / 2 + 1];
-    printf("median: %f\n", median);
+
+    if (rank == 0)
+    {
+        printf("\n");
+        for (i = 0; i < iterations_limit; i++)
+        {
+            printf("%f ", time_array[i])
+        }
+        printf("median: %f\n", median);
+    }
 
     total_time = total_time / (double)iterations_limit_actual;
 
