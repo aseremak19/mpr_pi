@@ -10,6 +10,17 @@ double rand_0_1(void)
     return rand() / ((double)RAND_MAX);
 }
 
+int exists(const char *fname)
+{
+    FILE *file;
+    if ((file = fopen(fname, "r")))
+    {
+        fclose(file);
+        return 1;
+    }
+    return 0;
+}
+
 int isInCircle()
 {
     int N = 1000;
@@ -49,7 +60,7 @@ float pi_number(int inCircle)
 
 //==================================================
 
-int main(int argc, char **argv, char **cores)
+int main(int argc, char **argv)
 {
     int rank, size, i, j;
     double start_time, end_time, total_time, elapsed_time;
@@ -69,30 +80,27 @@ int main(int argc, char **argv, char **cores)
     int len;
     MPI_Get_processor_name(hostname, &len);
 
-    char string_file[20] = "_cores_1000.csv";
-
-    // string_file = "_cores_1000.csv";
-
-    strcat(*cores, string_file);
-
-    printf("File name: %s", *cores);
-
-    MPI_Abort(MPI_COMM_WORLD, 1);
-    MPI_Abort(MPI_COMM_WORLD, 2);
+    int file_exist = exists("cores_1000.csv");
 
     // creating CSV file
     FILE *file = NULL;
     if (rank == 0)
     {
-        file = fopen(cores, "w");
+        if (file_exist == 0)
+        {
+            file = fopen("cores_1000.csv", "a");
+        }
+        else
+        {
+            file = fopen("cores_1000.csv", "a");
+            // Write the header row to the output file
+            fprintf(file, "Array Size,Average Time\n");
+        }
         if (file == NULL)
         {
             printf("Error opening output file.\n");
             MPI_Abort(MPI_COMM_WORLD, 1);
         }
-
-        // Write the header row to the output file
-        fprintf(file, "Array Size,Average Time\n");
     }
 
     /*if (size != 2)
