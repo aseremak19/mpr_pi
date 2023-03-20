@@ -23,7 +23,8 @@ int exists(const char *fname)
 
 int isInCircle()
 {
-    int N = 15000000;
+    // int N = 15000000;
+    int N = 150;
     int incircle = 0;
     // int count = 0;
     // int sum = 0;
