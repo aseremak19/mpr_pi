@@ -47,7 +47,9 @@ float pi_number(int inCircle)
     return pi;
 }
 
-int main(int argc, char **argv, char **no_cores)
+//==================================================
+
+int main(int argc, char **argv, char *cores)
 {
     int rank, size, i, j;
     double start_time, end_time, total_time, elapsed_time;
@@ -67,11 +69,11 @@ int main(int argc, char **argv, char **no_cores)
     int len;
     MPI_Get_processor_name(hostname, &len);
 
-    char string_file[16];
+    char string_file[20];
 
-    // string_file = {"_cores_1000.csv"};
+    string_file = {"_cores_1000.csv"};
 
-    // strcat(&no_cores, string_file);
+    strcat(&cores, string_file);
 
     // printf("No of cores: %s", &no_cores);
 
