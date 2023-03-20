@@ -148,6 +148,31 @@ int main(int argc, char **argv)
     }
     printf("total TIme sum: %.15f", total_time);
 
+    /* Sorting begins */
+
+    double t, median;
+    for (i = 1; i < = iterations_limit - 1; i + +)
+    {
+        for (j = 1; j < = iterations_limit - i; j + +)
+        {
+            if (time_array[j] < = time_array[j + 1])
+            {
+
+                t = time_array[j];
+                time_array[j] = time_array[j + 1];
+                time_array[j + 1] = t;
+            }
+            else
+                continue;
+        }
+    }
+
+    if (iterations_limit % 2 = = 0)
+        median = (time_array[iterations_limit / 2] + time_array[iterations_limit / 2 + 1]) / 2.0;
+    else
+        median = time_array[iterations_limit / 2 + 1];
+    printf("median: %f\n", median);
+
     total_time = total_time / (double)iterations_limit_actual;
 
     if (rank == 0)
