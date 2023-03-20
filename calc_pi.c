@@ -111,7 +111,7 @@ int main(int argc, char **argv, char *cores)
         end_time = MPI_Wtime();
 
         elapsed_time = start_time - end_time;
-        time_array[j] = elapsed_time;
+        time_array[i] = elapsed_time;
     }
 
     total_time = 0.0;
