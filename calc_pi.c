@@ -150,7 +150,7 @@ int main(int argc, char **argv)
     }
 
     total_time = 0.0;
-    for (j = 0; j < iterations_limit; j++)
+    for (j = 0; j < iterations_limit_actual; j++)
     {
         total_time = total_time + time_array[j];
     }
