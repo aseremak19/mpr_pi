@@ -130,7 +130,7 @@ int main(int argc, char **argv)
 
             pi_number(isInCircle());
 
-            MPI_Barrier(MPI_COMM_WORLD);
+            // MPI_Barrier(MPI_COMM_WORLD);
             end_time = MPI_Wtime();
 
             elapsed_time = end_time - start_time;
