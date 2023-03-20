@@ -81,7 +81,7 @@ int main(int argc, char **argv, char *cores)
     FILE *file = NULL;
     if (rank == 0)
     {
-        file = fopen("2_cores_1000.csv", "w");
+        file = fopen(cores, "w");
         if (file == NULL)
         {
             printf("Error opening output file.\n");
