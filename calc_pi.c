@@ -177,7 +177,7 @@ int main(int argc, char **argv)
         printf("\n");
         for (i = 0; i < iterations_limit; i++)
         {
-            printf("%f ", time_array[i])
+            printf("%f ", time_array[i]);
         }
         printf("median: %f\n", median);
     }
