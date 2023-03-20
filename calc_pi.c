@@ -116,7 +116,7 @@ int main(int argc, char **argv)
         MPI_Abort(MPI_COMM_WORLD, 1);
     }*/
 
-    time_array = (double *)malloc((iterations_limit + 1) * sizeof(double));
+    time_array = (double *)malloc((iterations_limit_actual + 1) * sizeof(double));
 
     for (i = 0; i < iterations_limit / size; i++)
     {
@@ -142,7 +142,7 @@ int main(int argc, char **argv)
     }
 
     total_time = 0.0;
-    for (j = 0; j < iterations_limit; j++)
+    for (j = 0; j < iterations_limit_actual; j++)
     {
         total_time = total_time + time_array[j];
     }
@@ -151,9 +151,9 @@ int main(int argc, char **argv)
     /* Sorting begins */
 
     double t, median;
-    for (i = 1; i <= iterations_limit - 1; i++)
+    for (i = 1; i <= iterations_limit_actual - 1; i++)
     {
-        for (j = 1; j <= iterations_limit - i; j++)
+        for (j = 1; j <= iterations_limit_actual - i; j++)
         {
             if (time_array[j] <= time_array[j + 1])
             {
@@ -167,15 +167,15 @@ int main(int argc, char **argv)
         }
     }
 
-    if (iterations_limit % 2 == 0)
-        median = (time_array[iterations_limit / 2] + time_array[iterations_limit / 2 + 1]) / 2.0;
+    if (iterations_limit_actual % 2 == 0)
+        median = (time_array[iterations_limit_actual / 2] + time_array[iterations_limit_actual / 2 + 1]) / 2.0;
     else
-        median = time_array[iterations_limit / 2 + 1];
+        median = time_array[iterations_limit_actual / 2 + 1];
 
     if (rank == 0)
     {
         printf("\n");
-        for (i = 0; i < iterations_limit; i++)
+        for (i = 0; i < iterations_limit_actual; i++)
         {
             printf("%f ", time_array[i]);
         }
