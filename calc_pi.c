@@ -146,7 +146,7 @@ int main(int argc, char **argv)
     {
         total_time = total_time + time_array[j];
     }
-    printf("total TIme sum: %.15f", total_time);
+    // printf("total TIme sum: %.15f", total_time);
 
     /* Sorting begins */
 
@@ -175,10 +175,11 @@ int main(int argc, char **argv)
     if (rank == 0)
     {
         printf("\n");
+        /*
         for (i = 0; i < iterations_limit_actual; i++)
         {
             printf("%f ", time_array[i]);
-        }
+        }*/
         printf("median: %f\n", median);
     }
 
