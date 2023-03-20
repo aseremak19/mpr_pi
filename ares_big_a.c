@@ -69,7 +69,7 @@ int main(int argc, char **argv)
     int iterations_limit_actual = 20;
     // int iterations_repeats = 1000 * 3;
     int iterations_repeats = 1;
-    int experiment_iterations = 13;
+    int experiment_iterations = 1;
 
     // Initialize MPI
     MPI_Init(&argc, &argv);
