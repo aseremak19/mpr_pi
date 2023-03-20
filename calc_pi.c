@@ -64,8 +64,8 @@ int main(int argc, char **argv)
 {
     int rank, size, i, j;
     double start_time, end_time, total_time, elapsed_time;
-    int *time_array;
-    int iterations_limit = 5;
+    double *time_array;
+    int iterations_limit = 10;
     int iterations_repeats = 100000;
 
     // Initialize MPI
