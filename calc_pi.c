@@ -82,10 +82,10 @@ int main(int argc, char **argv)
     MPI_Get_processor_name(hostname, &len);
 
     // weak
-    int iterations_limit = iterations_limit_actual;
+    // int iterations_limit = iterations_limit_actual;
 
     // strong
-    // int iterations_limit = iterations_limit_actual * size;
+    int iterations_limit = iterations_limit_actual * size;
 
     int file_exist = exists("cores_1000.csv");
 
@@ -123,7 +123,7 @@ int main(int argc, char **argv)
 
         total_time = 0.0;
 
-        for (j = 0; j < iterations_repeats; j++)
+        for (j = 0; j < iterations_repeats / size; j++)
         {
             MPI_Barrier(MPI_COMM_WORLD);
             start_time = MPI_Wtime();
