@@ -25,12 +25,12 @@ int isInCircle()
 {
     int N = 1000;
     int incircle = 0;
-    int count = 0;
-    int sum = 0;
+    // int count = 0;
+    // int sum = 0;
 
     double x;
     double y;
-    int distance;
+    // int distance;
     int i;
 
     for (i = 0; i < N; i++)
