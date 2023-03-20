@@ -65,10 +65,10 @@ int main(int argc, char **argv)
     int rank, size, i, j;
     double start_time, end_time, total_time, elapsed_time;
     double *time_array;
-    int iterations_limit = 10;
+    int iterations_limit_actual = 10;
     int iterations_repeats = 100000;
 
-    iterations_limit = iterations_limit * 2;
+    int iterations_limit = iterations_limit_actual * 2;
 
     // Initialize MPI
     MPI_Init(&argc, &argv);
@@ -144,7 +144,7 @@ int main(int argc, char **argv)
     }
     printf("total TIme sum: %.15f", total_time);
 
-    total_time = total_time / (double)iterations_limit;
+    total_time = total_time / (double)iterations_limit_actual;
 
     if (rank == 0)
     {
