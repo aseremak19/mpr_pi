@@ -60,7 +60,7 @@ float pi_number(int inCircle)
 
 //==================================================
 
-int main(int argc, char **argv)
+int main(int argc, char **argv[])
 {
     int rank, size, i, j;
     double start_time, end_time, total_time, elapsed_time;
@@ -69,10 +69,10 @@ int main(int argc, char **argv)
 
     int iterations_per_sequence = 100;
 
-    printf("argv: %s", *argv);
+    printf("argv: %s", *argv[1]);
 
     // Initialize MPI
-    MPI_Init(&argc, &argv);
+    MPI_Init(&argc, &argv[0]);
 
     // Get the number of processes and the rank of the current process
     MPI_Comm_size(MPI_COMM_WORLD, &size);
