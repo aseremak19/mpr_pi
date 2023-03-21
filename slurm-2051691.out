@@ -1,0 +1,3515 @@
+PLGrid modules tree now available!
+ .plgrid loaded.
+ gcccore/11.3.0 loaded.
+ zlib/1.2.12-gcccore-11.3.0 loaded.
+ binutils/2.38-gcccore-11.3.0 loaded.
+ numactl/2.0.14-gcccore-11.3.0 loaded.
+ cuda/11.7.0 loaded.
+ nvhpc/22.11-cuda-11.7.0 loaded.
+ xz/5.2.5-gcccore-11.3.0 loaded.
+ libxml2/2.9.13-gcccore-11.3.0 loaded.
+ libpciaccess/0.16-gcccore-11.3.0 loaded.
+ hwloc/2.7.1-gcccore-11.3.0 loaded.
+ openssl/1.1 loaded.
+ libevent/2.1.12-gcccore-11.3.0 loaded.
+ ucx/1.12.1-gcccore-11.3.0 loaded.
+ gdrcopy/2.3-gcccore-11.3.0 loaded.
+ ucx-cuda/1.12.1-gcccore-11.3.0-cuda-11.7.0 loaded.
+ libfabric/1.15.1-gcccore-11.3.0 loaded.
+ pmix/4.1.2-gcccore-11.3.0 loaded.
+ ucc/1.0.0-gcccore-11.3.0 loaded.
+ nccl/2.12.12-gcccore-11.3.0-cuda-11.7.0 loaded.
+ ucc-cuda/1.0.0-gcccore-11.3.0-cuda-11.7.0 loaded.
+ plgrid/tools/openmpi/4.1.4-nvhpc-22.11-cuda-11.7.0 loaded.
+
+median: 0.236677
+
+median: 0.236295
+
+median: 0.236256
+
+median: 0.236307
+
+median: 0.236289
+
+median: 0.236315
+
+median: 0.236354
+
+median: 0.236394
+
+median: 0.236357
+
+median: 0.236378
+
+median: 0.236363
+
+median: 0.236371
+
+median: 0.236373
+
+median: 0.236331
+
+median: 0.236422
+
+median: 0.236339
+
+median: 0.236343
+
+median: 0.236358
+
+median: 0.236411
+
+median: 0.236399
+Rank: 0; Hostanme: ac0275
+
+Completed: 1
+Rank: 1; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 0; Hostanme: ac0275
+
+Completed: 2
+Rank: 1; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 0; Hostanme: ac0275
+
+Completed: 3
+Rank: 1; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 0; Hostanme: ac0275
+
+Completed: 4
+Rank: 2; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 3; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+
+Completed: 5
+Rank: 5; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+
+median: 1198871926766040726531462980592980427360171470004058314153617232173727744.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 0; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+
+Completed: 6
+Rank: 4; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 1; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 6; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+
+Completed: 7
+Rank: 4; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 6; Hostanme: ac0275
+
+median: 6542551138750683509214054322196922962418070998099088905842120976772873857377378489910124559796263186513328712187904.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 7; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+
+Completed: 8
+Rank: 6; Hostanme: ac0275
+Rank: 8; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 7; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 1; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+
+Completed: 9
+Rank: 4; Hostanme: ac0275
+Rank: 8; Hostanme: ac0275
+Rank: 9; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 6; Hostanme: ac0275
+Rank: 7; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+
+Completed: 10
+Rank: 9; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 2; Hostanme: ac0275
+Rank: 7; Hostanme: ac0275
+Rank: 8; Hostanme: ac0275
+Rank: 10; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+Rank: 6; Hostanme: ac0275
+
+Completed: 11
+Rank: 2; Hostanme: ac0275
+Rank: 7; Hostanme: ac0275
+Rank: 9; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 11; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+Rank: 10; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+Rank: 8; Hostanme: ac0275
+Rank: 6; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+
+Completed: 12
+
+median: 0.520055
+
+median: 0.520107
+
+median: 0.520053
+
+median: 0.520003
+
+median: 0.520034
+
+median: 0.519947
+
+median: 0.519926
+
+median: 0.519942
+
+median: 0.520031
+
+median: 0.519947
+
+median: 0.520008
+
+median: 0.519982
+
+median: 0.520009
+
+median: 0.520049
+
+median: 0.519987
+
+median: 0.519975
+
+median: 0.520015
+
+median: 0.519971
+
+median: 0.519946
+
+median: 0.519898
+Rank: 0; Hostanme: ac0275
+
+Completed: 1
+Rank: 1; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 0; Hostanme: ac0275
+
+Completed: 2
+Rank: 1; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 2; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+
+Completed: 3
+Rank: 2; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 3; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+
+Completed: 4
+Rank: 3; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 0; Hostanme: ac0275
+
+Completed: 5
+Rank: 3; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 2; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+
+Completed: 6
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 2; Hostanme: ac0275
+Rank: 6; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+
+Completed: 7
+Rank: 5; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 7; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 4; Hostanme: ac0275
+Rank: 6; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+
+Completed: 8
+Rank: 6; Hostanme: ac0275
+Rank: 8; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 4; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+Rank: 7; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+
+Completed: 9
+Rank: 8; Hostanme: ac0275
+Rank: 9; Hostanme: ac0275
+Rank: 6; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+Rank: 7; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 5; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+
+Completed: 10
+Rank: 10; Hostanme: ac0275
+Rank: 7; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+Rank: 8; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 2; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+Rank: 6; Hostanme: ac0275
+Rank: 9; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+
+Completed: 11
+Rank: 5; Hostanme: ac0275
+Rank: 6; Hostanme: ac0275
+Rank: 8; Hostanme: ac0275
+Rank: 9; Hostanme: ac0275
+Rank: 10; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 7; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 1; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+Rank: 4; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 11; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+
+Completed: 12
+
+median: 1.134449
+
+median: 1.134480
+
+median: 1.134533
+
+median: 1.135235
+
+median: 1.135245
+
+median: 1.134954
+
+median: 1.135139
+
+median: 1.135012
+
+median: 1.134617
+
+median: 1.134498
+
+median: 1.134460
+
+median: 1.134505
+
+median: 1.134499
+
+median: 1.134573
+
+median: 1.134513
+
+median: 1.134519
+
+median: 1.134566
+
+median: 1.134480
+
+median: 1.134434
+
+median: 1.134525
+Rank: 0; Hostanme: ac0275
+
+Completed: 1
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 0; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+
+Completed: 2
+Rank: 1; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 0; Hostanme: ac0275
+
+Completed: 3
+Rank: 2; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 1; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+
+Completed: 4
+Rank: 4; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 2; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+
+Completed: 5
+Rank: 1; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 3; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+
+Completed: 6
+Rank: 3; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 4; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+Rank: 6; Hostanme: ac0275
+
+Completed: 7
+Rank: 1; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 7; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+Rank: 3; Hostanme: ac0275
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 6; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+
+Completed: 8
+Rank: 6; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 2; Hostanme: ac0275
+Rank: 7; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+Rank: 8; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+
+Completed: 9
+Rank: 6; Hostanme: ac0275
+Rank: 8; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+Rank: 7; Hostanme: ac0275
+
+median: 0.000000
+
+median: 106209540918373232199196913157884213492636187732740867074174176580579118252222595383812109597753726317251199241959445709563421284150505165551667642462776744410941981035560135892876084478489236029981264950769745920.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 3; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+Rank: 9; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+
+Completed: 10
+Rank: 1; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+Rank: 6; Hostanme: ac0275
+Rank: 10; Hostanme: ac0275
+Rank: 9; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 4; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 7; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+Rank: 8; Hostanme: ac0275
+
+Completed: 11
+Rank: 9; Hostanme: ac0275
+Rank: 10; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+Rank: 11; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+Rank: 6; Hostanme: ac0275
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+
+median: 0.000000
+Rank: 0; Hostanme: ac0275
+Rank: 7; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+Rank: 8; Hostanme: ac0275
+
+Completed: 12
+
+median: 0.236816
+
+median: 0.236386
+
+median: 0.236289
+
+median: 0.236341
+
+median: 0.236376
+
+median: 0.236257
+
+median: 0.236337
+
+median: 0.236375
+
+median: 0.236343
+
+median: 0.236346
+
+median: 0.236360
+
+median: 0.236353
+
+median: 0.236382
+
+median: 0.236399
+
+median: 0.236353
+
+median: 0.236307
+
+median: 0.236321
+
+median: 0.236358
+
+median: 0.236344
+
+median: 0.236349
+Rank: 0; Hostanme: ac0275
+
+Completed: 1
+
+median: 0.236464
+
+median: 0.236454
+
+median: 0.236521
+
+median: 0.236480
+
+median: 0.236447
+
+median: 0.236479
+
+median: 0.236469
+
+median: 0.236422
+
+median: 0.236473
+
+median: 0.236421
+
+median: 0.236376
+
+median: 0.236429
+
+median: 0.236404
+
+median: 0.236385
+
+median: 0.236426
+
+median: 0.236422
+
+median: 0.236402
+
+median: 0.236365
+
+median: 0.236315
+Rank: 1; Hostanme: ac0275
+
+median: 0.236360
+Rank: 0; Hostanme: ac0275
+
+Completed: 2
+
+median: 0.236348
+
+median: 0.236348
+
+median: 0.236398
+
+median: 0.236343
+
+median: 0.236427
+
+median: 0.236328
+
+median: 0.236413
+
+median: 0.236379
+
+median: 0.236318
+
+median: 0.236365
+
+median: 0.236362
+
+median: 0.236367
+
+median: 0.236361
+
+median: 0.236355
+
+median: 0.236346
+
+median: 0.236358
+
+median: 0.236335
+
+median: 0.236326
+
+median: 0.236347
+Rank: 1; Hostanme: ac0275
+
+median: 0.236340
+Rank: 2; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+
+Completed: 3
+
+median: 0.236393
+
+median: 0.236378
+
+median: 0.236393
+
+median: 0.236374
+
+median: 0.236384
+
+median: 0.236403
+
+median: 0.236398
+
+median: 0.236419
+
+median: 0.236375
+
+median: 0.236382
+
+median: 0.236378
+
+median: 0.236403
+
+median: 0.236363
+
+median: 0.236388
+
+median: 0.236398
+
+median: 0.236401
+
+median: 0.236427
+
+median: 0.236405
+
+median: 0.236413
+Rank: 2; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+
+median: 0.236514
+Rank: 0; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+
+Completed: 4
+
+median: 0.236437
+
+median: 0.236398
+
+median: 0.236425
+
+median: 0.236456
+
+median: 0.236443
+
+median: 0.236442
+
+median: 0.236396
+
+median: 0.236416
+
+median: 0.236381
+
+median: 0.236398
+
+median: 0.236504
+
+median: 0.236406
+
+median: 0.236419
+
+median: 0.236422
+
+median: 0.236402
+
+median: 0.236447
+
+median: 0.236416
+
+median: 0.236448
+
+median: 0.236423
+Rank: 1; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+
+median: 0.236401
+Rank: 0; Hostanme: ac0275
+
+Completed: 5
+
+median: 0.236778
+
+median: 0.236778
+
+median: 0.236754
+
+median: 0.236760
+
+median: 0.236773
+
+median: 0.236754
+
+median: 0.236750
+
+median: 0.236730
+
+median: 0.236720
+
+median: 0.236690
+
+median: 0.236710
+
+median: 0.236757
+
+median: 0.236701
+
+median: 0.236686
+
+median: 0.236710
+
+median: 0.236744
+
+median: 0.236729
+
+median: 0.236781
+
+median: 0.236731
+Rank: 4; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+
+median: 0.236754
+Rank: 0; Hostanme: ac0275
+
+Completed: 6
+
+median: 0.236426
+
+median: 0.236395
+
+median: 0.236388
+
+median: 0.236429
+
+median: 0.236396
+
+median: 0.236400
+
+median: 0.236418
+
+median: 0.236370
+
+median: 0.236425
+
+median: 0.236414
+
+median: 0.236411
+
+median: 0.236395
+
+median: 0.236413
+
+median: 0.236389
+
+median: 0.236431
+
+median: 0.236404
+
+median: 0.236408
+
+median: 0.236413
+
+median: 0.236413
+Rank: 1; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+
+median: 0.236415
+Rank: 6; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+
+Completed: 7
+
+median: 0.236420
+
+median: 0.236392
+
+median: 0.236467
+
+median: 0.236430
+
+median: 0.236419
+
+median: 0.236407
+
+median: 0.236397
+
+median: 0.236391
+
+median: 0.236536
+
+median: 0.236669
+
+median: 0.236654
+
+median: 0.236652
+
+median: 0.236633
+
+median: 0.236636
+
+median: 0.236652
+
+median: 0.236643
+
+median: 0.236681
+
+median: 0.236578
+
+median: 0.236613
+Rank: 1; Hostanme: ac0275
+
+median: 0.236579
+Rank: 6; Hostanme: ac0275
+Rank: 7; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+
+Completed: 8
+
+median: 0.236526
+
+median: 0.236601
+
+median: 0.236653
+
+median: 0.236617
+
+median: 0.236596
+
+median: 0.236561
+
+median: 0.236619
+
+median: 0.236562
+
+median: 0.236552
+
+median: 0.236616
+
+median: 0.236545
+
+median: 0.236529
+
+median: 0.236577
+
+median: 0.236553
+
+median: 0.236558
+
+median: 0.236448
+
+median: 0.236532
+
+median: 0.236461
+
+median: 0.236545
+Rank: 6; Hostanme: ac0275
+Rank: 7; Hostanme: ac0275
+Rank: 8; Hostanme: ac0275
+
+median: 0.236488
+Rank: 1; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+
+Completed: 9
+
+median: 0.236520
+
+median: 0.236400
+
+median: 0.236458
+
+median: 0.236455
+
+median: 0.236457
+
+median: 0.236474
+
+median: 0.236509
+
+median: 0.236517
+
+median: 0.236538
+
+median: 0.236473
+
+median: 0.236497
+
+median: 0.236497
+
+median: 0.236373
+
+median: 0.236440
+
+median: 0.236453
+
+median: 0.236460
+
+median: 0.236493
+
+median: 0.236475
+
+median: 0.236520
+Rank: 8; Hostanme: ac0275
+Rank: 9; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+Rank: 7; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+Rank: 6; Hostanme: ac0275
+
+median: 0.236462
+Rank: 0; Hostanme: ac0275
+
+Completed: 10
+
+median: 0.236453
+
+median: 0.236481
+
+median: 0.236518
+
+median: 0.236444
+
+median: 0.236419
+
+median: 0.236429
+
+median: 0.236436
+
+median: 0.236403
+
+median: 0.236447
+
+median: 0.236415
+
+median: 0.236427
+
+median: 0.236439
+
+median: 0.236421
+
+median: 0.236498
+
+median: 0.236432
+
+median: 0.236460
+
+median: 0.236474
+
+median: 0.236453
+
+median: 0.236454
+Rank: 8; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+
+median: 0.236447
+Rank: 10; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 6; Hostanme: ac0275
+Rank: 7; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+Rank: 9; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+
+Completed: 11
+
+median: 0.237213
+
+median: 0.237222
+
+median: 0.237177
+
+median: 0.237199
+
+median: 0.237188
+
+median: 0.237190
+
+median: 0.237177
+
+median: 0.237214
+
+median: 0.237195
+
+median: 0.237204
+
+median: 0.237191
+
+median: 0.237182
+
+median: 0.237152
+
+median: 0.237126
+
+median: 0.237163
+
+median: 0.237168
+
+median: 0.237158
+
+median: 0.237164
+
+median: 0.237145
+Rank: 1; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+Rank: 7; Hostanme: ac0275
+Rank: 8; Hostanme: ac0275
+Rank: 9; Hostanme: ac0275
+Rank: 10; Hostanme: ac0275
+Rank: 11; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 6; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+
+median: 0.237099
+Rank: 0; Hostanme: ac0275
+
+Completed: 12
+
+median: 0.519922
+
+median: 0.519912
+
+median: 0.520048
+
+median: 0.519990
+
+median: 0.519986
+
+median: 0.519992
+
+median: 0.519991
+
+median: 0.520005
+
+median: 0.520001
+
+median: 0.520030
+
+median: 0.520218
+
+median: 0.520007
+
+median: 0.520016
+
+median: 0.520021
+
+median: 0.520038
+
+median: 0.519994
+
+median: 0.520108
+
+median: 0.520023
+
+median: 0.520193
+
+median: 0.520171
+Rank: 0; Hostanme: ac0275
+
+Completed: 1
+
+median: 0.520182
+
+median: 0.520167
+
+median: 0.520188
+
+median: 0.520115
+
+median: 0.520031
+
+median: 0.520145
+
+median: 0.520092
+
+median: 0.519966
+
+median: 0.519952
+
+median: 0.519896
+
+median: 0.519950
+
+median: 0.519874
+
+median: 0.519975
+
+median: 0.519985
+
+median: 0.519940
+
+median: 0.519939
+
+median: 0.519971
+
+median: 0.519924
+
+median: 0.519952
+Rank: 1; Hostanme: ac0275
+
+median: 0.519977
+Rank: 0; Hostanme: ac0275
+
+Completed: 2
+
+median: 0.519928
+
+median: 0.519886
+
+median: 0.520009
+
+median: 0.519910
+
+median: 0.520021
+
+median: 0.519899
+
+median: 0.519935
+
+median: 0.519869
+
+median: 0.519900
+
+median: 0.520274
+
+median: 0.520306
+
+median: 0.520166
+
+median: 0.520215
+
+median: 0.520279
+
+median: 0.520078
+
+median: 0.520105
+
+median: 0.520070
+
+median: 0.519946
+
+median: 0.520093
+
+median: 0.520094
+Rank: 1; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+
+Completed: 3
+
+median: 0.519907
+
+median: 0.519661
+
+median: 0.519594
+
+median: 0.519596
+
+median: 0.519625
+
+median: 0.519618
+
+median: 0.519588
+
+median: 0.519630
+
+median: 0.519524
+
+median: 0.519670
+
+median: 0.519535
+
+median: 0.519538
+
+median: 0.519593
+
+median: 0.519725
+
+median: 0.519761
+
+median: 0.519623
+
+median: 0.519986
+
+median: 0.520039
+
+median: 0.519857
+Rank: 1; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+
+median: 0.519522
+Rank: 3; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+
+Completed: 4
+
+median: 0.520131
+
+median: 0.520094
+
+median: 0.520007
+
+median: 0.520007
+
+median: 0.520018
+
+median: 0.520286
+
+median: 0.520191
+
+median: 0.520109
+
+median: 0.520075
+
+median: 0.520160
+
+median: 0.520048
+
+median: 0.520361
+
+median: 0.520051
+
+median: 0.519981
+
+median: 0.519975
+
+median: 0.520002
+
+median: 0.519959
+
+median: 0.519896
+
+median: 0.519900
+Rank: 4; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+
+median: 0.519953
+Rank: 1; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+
+Completed: 5
+
+median: 0.519562
+
+median: 0.519653
+
+median: 0.519540
+
+median: 0.519548
+
+median: 0.519558
+
+median: 0.519509
+
+median: 0.519483
+
+median: 0.519810
+
+median: 0.519562
+
+median: 0.519533
+
+median: 0.519548
+
+median: 0.519549
+
+median: 0.519652
+
+median: 0.519465
+
+median: 0.519837
+
+median: 0.519426
+
+median: 0.519736
+
+median: 0.519820
+
+median: 0.519835
+
+median: 0.519847
+Rank: 1; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+
+Completed: 6
+
+median: 0.519931
+
+median: 0.520222
+
+median: 0.520364
+
+median: 0.520343
+
+median: 0.520321
+
+median: 0.520224
+
+median: 0.520110
+
+median: 0.520183
+
+median: 0.520114
+
+median: 0.519974
+
+median: 0.520019
+
+median: 0.519945
+
+median: 0.520018
+
+median: 0.519976
+
+median: 0.519961
+
+median: 0.519921
+
+median: 0.519906
+
+median: 0.519925
+
+median: 0.519957
+Rank: 4; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+
+median: 0.519937
+Rank: 1; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+Rank: 6; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+
+Completed: 7
+
+median: 0.519859
+
+median: 0.519809
+
+median: 0.519981
+
+median: 0.519966
+
+median: 0.520203
+
+median: 0.520203
+
+median: 0.520207
+
+median: 0.520243
+
+median: 0.520135
+
+median: 0.520130
+
+median: 0.520038
+
+median: 0.520088
+
+median: 0.520039
+
+median: 0.519990
+
+median: 0.519998
+
+median: 0.519997
+
+median: 0.519876
+
+median: 0.520007
+
+median: 0.519998
+Rank: 7; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+
+median: 0.520043
+Rank: 1; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+Rank: 6; Hostanme: ac0275
+
+Completed: 8
+
+median: 0.521410
+
+median: 0.521418
+
+median: 0.521380
+
+median: 0.521517
+
+median: 0.521411
+
+median: 0.521371
+
+median: 0.521566
+
+median: 0.521799
+
+median: 0.522150
+
+median: 0.522156
+
+median: 0.522115
+
+median: 0.522170
+
+median: 0.521993
+
+median: 0.522030
+
+median: 0.522128
+
+median: 0.522053
+
+median: 0.522202
+
+median: 0.521919
+
+median: 0.522138
+Rank: 1; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+Rank: 6; Hostanme: ac0275
+Rank: 7; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+Rank: 8; Hostanme: ac0275
+
+median: 0.521873
+Rank: 0; Hostanme: ac0275
+
+Completed: 9
+
+median: 0.520209
+
+median: 0.520765
+
+median: 0.520743
+
+median: 0.520751
+
+median: 0.520680
+
+median: 0.520695
+
+median: 0.520701
+
+median: 0.520718
+
+median: 0.520738
+
+median: 0.520723
+
+median: 0.520736
+
+median: 0.520750
+
+median: 0.520765
+
+median: 0.520757
+
+median: 0.520753
+
+median: 0.520740
+
+median: 0.520766
+
+median: 0.520964
+
+median: 0.520742
+Rank: 7; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+Rank: 6; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+Rank: 8; Hostanme: ac0275
+
+median: 0.520739
+Rank: 3; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 9; Hostanme: ac0275
+
+Completed: 10
+
+median: 0.519937
+
+median: 0.519949
+
+median: 0.519965
+
+median: 0.519961
+
+median: 0.520067
+
+median: 0.519941
+
+median: 0.519957
+
+median: 0.519958
+
+median: 0.520098
+
+median: 0.519957
+
+median: 0.519897
+
+median: 0.519918
+
+median: 0.519945
+
+median: 0.519911
+
+median: 0.520636
+
+median: 0.520267
+
+median: 0.520003
+
+median: 0.520080
+
+median: 0.520175
+Rank: 7; Hostanme: ac0275
+Rank: 8; Hostanme: ac0275
+Rank: 9; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+Rank: 6; Hostanme: ac0275
+Rank: 10; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+
+median: 0.520197
+Rank: 1; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+
+Completed: 11
+
+median: 0.520512
+
+median: 0.520557
+
+median: 0.520523
+
+median: 0.520530
+
+median: 0.520492
+
+median: 0.520576
+
+median: 0.520563
+
+median: 0.520644
+
+median: 0.520541
+
+median: 0.520695
+
+median: 0.520558
+
+median: 0.520884
+
+median: 0.520544
+
+median: 0.520506
+
+median: 0.520498
+
+median: 0.520844
+
+median: 0.520531
+
+median: 0.521065
+
+median: 0.521029
+Rank: 8; Hostanme: ac0275
+Rank: 9; Hostanme: ac0275
+Rank: 11; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 10; Hostanme: ac0275
+
+median: 0.520617
+Rank: 0; Hostanme: ac0275
+Rank: 7; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 6; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+
+Completed: 12
+
+median: 1.134614
+
+median: 1.135267
+
+median: 1.135333
+
+median: 1.135223
+
+median: 1.134958
+
+median: 1.134914
+
+median: 1.134700
+
+median: 1.134818
+
+median: 1.134925
+
+median: 1.134940
+
+median: 1.134916
+
+median: 1.134865
+
+median: 1.135100
+
+median: 1.135020
+
+median: 1.134916
+
+median: 1.134932
+
+median: 1.134765
+
+median: 1.134758
+
+median: 1.134449
+
+median: 1.134402
+Rank: 0; Hostanme: ac0275
+
+Completed: 1
+
+median: 1.134460
+
+median: 1.134536
+
+median: 1.134538
+
+median: 1.134483
+
+median: 1.134684
+
+median: 1.134677
+
+median: 1.134892
+
+median: 1.134828
+
+median: 1.134664
+
+median: 1.134689
+
+median: 1.134475
+
+median: 1.134338
+
+median: 1.134341
+
+median: 1.134625
+
+median: 1.134578
+
+median: 1.134510
+
+median: 1.134495
+
+median: 1.134630
+
+median: 1.134394
+
+median: 1.134892
+Rank: 1; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+
+Completed: 2
+
+median: 1.135029
+
+median: 1.134786
+
+median: 1.134826
+
+median: 1.134531
+
+median: 1.134420
+
+median: 1.134406
+
+median: 1.134382
+
+median: 1.134535
+
+median: 1.134543
+
+median: 1.134545
+
+median: 1.134601
+
+median: 1.134502
+
+median: 1.134987
+
+median: 1.134879
+
+median: 1.134836
+
+median: 1.134725
+
+median: 1.134776
+
+median: 1.134466
+
+median: 1.134403
+Rank: 1; Hostanme: ac0275
+
+median: 1.134359
+Rank: 2; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+
+Completed: 3
+
+median: 1.134477
+
+median: 1.134705
+
+median: 1.134633
+
+median: 1.134643
+
+median: 1.134596
+
+median: 1.134594
+
+median: 1.134982
+
+median: 1.135023
+
+median: 1.135044
+
+median: 1.134750
+
+median: 1.134572
+
+median: 1.134943
+
+median: 1.134794
+
+median: 1.134805
+
+median: 1.134500
+
+median: 1.134800
+
+median: 1.134499
+
+median: 1.134429
+
+median: 1.134260
+Rank: 2; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+
+median: 1.134023
+Rank: 0; Hostanme: ac0275
+
+Completed: 4
+
+median: 1.134736
+
+median: 1.135033
+
+median: 1.135092
+
+median: 1.134766
+
+median: 1.134907
+
+median: 1.134749
+
+median: 1.134786
+
+median: 1.134737
+
+median: 1.134650
+
+median: 1.134658
+
+median: 1.134658
+
+median: 1.134744
+
+median: 1.135107
+
+median: 1.135104
+
+median: 1.134919
+
+median: 1.134948
+
+median: 1.134618
+
+median: 1.134480
+
+median: 1.134693
+Rank: 4; Hostanme: ac0275
+
+median: 1.134702
+Rank: 3; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+
+Completed: 5
+
+median: 1.134722
+
+median: 1.134678
+
+median: 1.134721
+
+median: 1.135489
+
+median: 1.135419
+
+median: 1.135145
+
+median: 1.135336
+
+median: 1.135422
+
+median: 1.134855
+
+median: 1.134782
+
+median: 1.134781
+
+median: 1.134659
+
+median: 1.134645
+
+median: 1.134818
+
+median: 1.134771
+
+median: 1.134750
+
+median: 1.134277
+
+median: 1.134594
+
+median: 1.134538
+Rank: 5; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+
+median: 1.134751
+Rank: 3; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+
+Completed: 6
+
+median: -nan
+
+median: -nan
+
+median: -nan
+
+median: -nan
+
+median: -nan
+
+median: -nan
+
+median: -nan
+
+median: -nan
+
+median: -nan
+
+median: -nan
+
+median: -nan
+
+median: -nan
+
+median: -nan
+
+median: -nan
+
+median: -nan
+
+median: -nan
+
+median: -nan
+
+median: -nan
+
+median: -nan
+Rank: 4; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+Rank: 6; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+
+median: -nan
+Rank: 3; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+
+Completed: 7
+
+median: 1.135258
+
+median: 1.135301
+
+median: 1.135085
+
+median: 1.135148
+
+median: 1.135142
+
+median: 1.135119
+
+median: 1.135134
+
+median: 1.135210
+
+median: 1.135188
+
+median: 1.135204
+
+median: 1.135279
+
+median: 1.135160
+
+median: 1.134960
+
+median: 1.134501
+
+median: 1.134840
+
+median: 1.134928
+
+median: 1.134030
+
+median: 1.133809
+
+median: 1.134292
+Rank: 1; Hostanme: ac0275
+Rank: 6; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+Rank: 7; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+
+median: 1.133986
+Rank: 0; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+
+Completed: 8
+
+median: 1.133846
+
+median: 1.134694
+
+median: 1.134928
+
+median: 1.135237
+
+median: 1.135189
+
+median: 1.134977
+
+median: 1.135122
+
+median: 1.134772
+
+median: 1.134658
+
+median: 1.134712
+
+median: 1.134807
+
+median: 1.134803
+
+median: 1.134906
+
+median: 1.135371
+
+median: 1.134802
+
+median: 1.135381
+
+median: 1.135219
+
+median: 1.135095
+
+median: 1.135078
+Rank: 1; Hostanme: ac0275
+Rank: 8; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+Rank: 6; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+
+median: 1.134874
+Rank: 4; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 7; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+
+Completed: 9
+
+median: 1.135031
+
+median: 1.135212
+
+median: 1.135300
+
+median: 1.135201
+
+median: 1.135274
+
+median: 1.135216
+
+median: 1.135190
+
+median: 1.135586
+
+median: 1.135400
+
+median: 1.135309
+
+median: 1.135118
+
+median: 1.135266
+
+median: 1.134862
+
+median: 1.134891
+
+median: 1.134960
+
+median: 1.134990
+
+median: 1.135243
+
+median: 1.135212
+
+median: 1.135182
+Rank: 8; Hostanme: ac0275
+Rank: 9; Hostanme: ac0275
+Rank: 6; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+
+median: 1.135206
+Rank: 5; Hostanme: ac0275
+Rank: 7; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 0; Hostanme: ac0275
+
+Completed: 10
+
+median: 1.135410
+
+median: 1.135824
+
+median: 1.135739
+
+median: 1.135619
+
+median: 1.135266
+
+median: 1.135421
+
+median: 1.135137
+
+median: 1.135170
+
+median: 1.135065
+
+median: 1.135075
+
+median: 1.135084
+
+median: 1.134981
+
+median: 1.135051
+
+median: 1.134965
+
+median: 1.135415
+
+median: 1.135459
+
+median: 1.135840
+
+median: 1.135697
+
+median: 1.135598
+Rank: 6; Hostanme: ac0275
+Rank: 8; Hostanme: ac0275
+Rank: 9; Hostanme: ac0275
+Rank: 10; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+
+median: 1.135497
+Rank: 0; Hostanme: ac0275
+Rank: 7; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+
+Completed: 11
+
+median: 1.135824
+
+median: 1.135387
+
+median: 1.135395
+
+median: 1.135087
+
+median: 1.135249
+
+median: 1.134914
+
+median: 1.135342
+
+median: 1.136368
+
+median: 1.135410
+
+median: 1.135573
+
+median: 1.135550
+
+median: 1.135996
+
+median: 1.135926
+
+median: 1.135690
+
+median: 1.135517
+
+median: 1.135259
+
+median: 1.135482
+
+median: 1.135566
+
+median: 1.135448
+Rank: 7; Hostanme: ac0275
+Rank: 8; Hostanme: ac0275
+Rank: 9; Hostanme: ac0275
+Rank: 1; Hostanme: ac0275
+Rank: 2; Hostanme: ac0275
+Rank: 5; Hostanme: ac0275
+Rank: 6; Hostanme: ac0275
+Rank: 11; Hostanme: ac0275
+Rank: 3; Hostanme: ac0275
+Rank: 10; Hostanme: ac0275
+
+median: 1.135365
+Rank: 0; Hostanme: ac0275
+Rank: 4; Hostanme: ac0275
+
+Completed: 12
