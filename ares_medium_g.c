@@ -21,10 +21,10 @@ int exists(const char *fname)
     return 0;
 }
 
-int isInCircle()
+int isInCircle(int N)
 {
-    int N = 11000000 * 3;
-    // int N = 150;
+    // int N = 11000000 * 3;
+    //  int N = 150;
     int incircle = 0;
     // int count = 0;
     // int sum = 0;
@@ -69,6 +69,7 @@ int main(int argc, char **argv)
     int iterations_limit_actual = 2;
     int iterations_repeats = 1;
     int experiment_iterations = 20;
+    int N = 11000000 * 3;
 
     // Initialize MPI
     MPI_Init(&argc, &argv);
@@ -132,7 +133,7 @@ int main(int argc, char **argv)
                 MPI_Barrier(MPI_COMM_WORLD);
                 start_time = MPI_Wtime();
 
-                pi_number(isInCircle());
+                pi_number(isInCircle(N));
 
                 // MPI_Barrier(MPI_COMM_WORLD);
                 end_time = MPI_Wtime();
